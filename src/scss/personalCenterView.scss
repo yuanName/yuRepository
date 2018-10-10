@@ -1,0 +1,65 @@
+	.personalCenter
+	{
+		background: $mainBackgroundColor;
+		padding-bottom: 50px;
+		.perInfo
+		{
+			background: $mainColor;
+			.InfoCard
+			{
+				padding: 1rem 0; 
+				img
+				{
+					width: 6.5rem;
+					height: 6.5rem;
+					display: block;
+					margin: 0 0 0 25px;
+					border-radius: 20%;
+					border: 1px solid red;
+				}
+				span
+				{
+						position: absolute;
+						left: 9.3rem;
+						top: 3rem;
+						font-size: 1.2rem;
+						color: white;
+						a{
+							  color: white;
+						}
+				}
+			}
+			.van-row
+			{
+					
+					color: white;
+					font-size: 1.2rem;
+					text-align: center;
+					background: #111111;
+					.van-col--8
+					{
+							height: 4.5rem;
+							p
+							{
+								margin: 0.5rem;
+							}
+					}
+			}
+		}
+		.top-cell-group
+		{
+			margin-top: 0.8rem;
+		}
+		.middle-cell-group
+		{
+			margin-top: 1.5rem;
+		}
+		.bottom-cell-group
+		{
+			margin-top: 1.5rem;
+		}
+		.van-button--large
+		{
+			@include largeButton;
+		}
+	}

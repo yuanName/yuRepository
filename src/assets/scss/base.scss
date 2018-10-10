@@ -1,0 +1,28 @@
+$mainColor: #9A69C4;
+// #9A69C4
+$mainBackgroundColor: #fafafa;
+$largeButtonBorderRadius: 1.5rem;
+@mixin largeButton
+{
+	width: 85%;
+    display: block;
+	background: $mainColor;
+    margin: 1.5rem auto;
+    color: white;
+    font-size: 1.2rem;
+	border-radius: $largeButtonBorderRadius;
+}
+@mixin greyBackground
+{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: $mainBackgroundColor;
+}
+@mixin otherLoginWay
+{
+	border:1px solid red;
+	
+}

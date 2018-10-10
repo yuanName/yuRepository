@@ -1,0 +1,24 @@
+.classification .rightContent {
+  width: calc(100% - 90px);
+  position: absolute;
+  top: 3rem;
+  left: 86px;
+  height: calc(100% - 102px);
+  border: 1px solid;
+  display: fixed;
+  overflow: hidden; }
+  .classification .rightContent .goodsTitle {
+    padding: 0.2rem 0; }
+  .classification .rightContent .van-col--8 {
+    padding: 0.2rem 0.2rem; }
+    .classification .rightContent .van-col--8 img {
+      height: 5rem;
+      border: 1px solid red;
+      display: block; }
+    .classification .rightContent .van-col--8 p {
+      border: 1px solid blue;
+      margin: 0;
+      padding: 0.2rem 0;
+      text-align: center; }
+
+/*# sourceMappingURL=classificationView.1.css.map */
